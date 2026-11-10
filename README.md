@@ -1,4 +1,4 @@
-# tinycms
+# tinycms.ai
 
 Run your website and social media from a conversation. tinycms is where the website lives: it hosts the site, manages everything on it, and is built for AI apps to work in. Claude is the designer and the writer. It can give the site the look and layout that suits you, from colours, type, header and footer to the structure of each page and custom styling on top, and tinycms serves the result to your visitors. There is no separate host to set up and nothing to deploy.
 
