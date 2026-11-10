@@ -1,0 +1,14 @@
+{
+  "name": "tinycms",
+  "displayName": "tinycms",
+  "version": "1.0.0",
+  "description": "Draft, check and publish website pages, articles, forms and social posts on your tinycms site from a conversation. Nothing goes live until you say yes.",
+  "author": { "name": "tinycms", "url": "https://www.tinycms.ai" },
+  "homepage": "https://www.tinycms.ai",
+  "repository": "https://github.com/tinycms-ai/tinycms-plugin",
+  "license": "MIT",
+  "keywords": ["cms", "website", "publishing", "social-media", "content", "blog", "tinycms"],
+  "privacyPolicyUrl": "https://www.tinycms.ai/privacy",
+  "termsOfServiceUrl": "https://www.tinycms.ai/terms",
+  "supportUrl": "https://tinycms-help.tinycms.ai"
+}

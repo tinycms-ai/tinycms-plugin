@@ -1,0 +1,12 @@
+{
+  "name": "tinycms",
+  "description": "The tinycms plugin: run your website and social media from a conversation.",
+  "owner": { "name": "tinycms", "url": "https://www.tinycms.ai" },
+  "plugins": [
+    {
+      "name": "tinycms",
+      "source": "./",
+      "description": "Draft, check and publish website pages, articles, forms and social posts on your tinycms site from a conversation. Nothing goes live until you say yes."
+    }
+  ]
+}
