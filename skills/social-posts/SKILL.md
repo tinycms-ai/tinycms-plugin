@@ -1,6 +1,6 @@
 ---
 name: social-posts
-description: Write, schedule and manage social media posts and campaigns through a tinycms site's Social channels (X, Bluesky, Threads, Facebook, Instagram, LinkedIn, YouTube, TikTok, Mastodon). Use when the person asks to post about an article, draft a social post, schedule posts, plan a campaign, or make branded social images with Prism AI.
+description: Write, schedule and manage social media posts and campaigns through a tinycms site's Social channels (X, Bluesky, Threads, Facebook, Instagram, LinkedIn, YouTube, TikTok, Mastodon). Use when the person asks to post about an article, draft a social post, schedule posts, plan a campaign, or lay out branded image cards for posts with Prism AI.
 ---
 
 # Social posts and campaigns
@@ -35,7 +35,7 @@ Social is part of the tinycms Pro plan. If `list_social_accounts` and `create_so
 
 ## Branded images with Prism AI
 
-Prism AI (a paid add-on) makes branded social images from an article, a page or an idea.
+Prism AI (a paid add-on) lays out branded image cards from an article, a page or an idea. It arranges the source's own picture and words in the site's brand and draws nothing new.
 
 1. `create_design_pieces` for the article or page, with shapes by platform: square for Instagram, Facebook, LinkedIn, Threads and Bluesky; wide for X and link cards; story for Stories, Reels covers and TikTok. Pass what the person said the piece should do as the brief.
 2. Give the person each piece's URL to look at, with the notes that came back. "Still to fix" means a person should look before it posts.
