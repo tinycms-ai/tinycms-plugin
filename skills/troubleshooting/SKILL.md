@@ -10,7 +10,7 @@ description: What to do when a tinycms tool refuses or fails. Use when a call an
 The site's owner set this agent to ask before that kind of change. Approval happens in the tinycms app, not in this chat.
 
 1. Call `confirm_agent_action` with `kind` (drafts, surface, delete, or code) and `what`: a plain description of exactly what will change.
-2. It answers with an `approvalUrl`. Send that link to the person. They say yes or decline it in tinycms.
+2. It answers with an `approvalUrl`. Send that link to the person. They approve or decline it in tinycms.
 3. Once they have, make the original call again within the time the answer gives (minutes, not hours). Never say it is approved yourself.
 4. "Waiting for approval" means the request is still open. Send the link again if needed and wait.
 5. If the person declined with a note, change the plan to match what they asked before asking again.

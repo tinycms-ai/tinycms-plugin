@@ -7,7 +7,7 @@ description: Design a website hosted on tinycms, or change how it looks and is l
 
 tinycms hosts the site and serves whatever design you give it, so the design is yours to make. You are not limited to the templates: start from one or from nothing, set the colours, type and layout, build each page from blocks, and write custom CSS for the rest. Ask what the site should feel like, or propose a direction and show it in a preview.
 
-The site's look, header, footer and home page are settings on one site document, not pages. `get_site` reads the working copy; `update_site` changes it. Changes stay unpublished until the person says yes to publishing the site document (see the `working-with-tinycms` skill).
+The site's look, header, footer and home page are settings on one site document, not pages. `get_site` reads the working copy; `update_site` changes it. Changes stay unpublished until the person approves publishing the site document (see the `working-with-tinycms` skill).
 
 ## Look
 

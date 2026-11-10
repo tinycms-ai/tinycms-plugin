@@ -6,7 +6,7 @@
     {
       "name": "tinycms",
       "source": "./",
-      "description": "tinycms hosts your website and manages its content. Claude designs the look and layout, then drafts, checks and publishes pages, articles, forms and social posts from a conversation. Nothing reaches the internet until you say yes, and every change is kept in a history you can look back through."
+      "description": "tinycms hosts your website and manages its content. Claude designs the look and layout, then drafts, checks and publishes pages, articles, forms and social posts from a conversation. Nothing reaches the internet until you approve it, and every change is kept in a history you can look back through."
     }
   ]
 }

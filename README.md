@@ -2,9 +2,9 @@
 
 Run your website and social media from a conversation. tinycms is where the website lives: it hosts the site, manages everything on it, and is built for AI apps to work in. Claude is the designer and the writer. It can give the site the look and layout that suits you, from colours, type, header and footer to the structure of each page and custom styling on top, and tinycms serves the result to your visitors. There is no separate host to set up and nothing to deploy.
 
-With this plugin, Claude can also draft pages, articles and forms on your tinycms site, run the checks, show you a preview on the real site, and publish or schedule once you say yes. On the Pro plan it can write and schedule social posts and plan campaigns.
+With this plugin, Claude can also draft pages, articles and forms on your tinycms site, run the checks, show you a preview on the real site, and publish or schedule once you approve. On the Pro plan it can write and schedule social posts and plan campaigns.
 
-tinycms is also the gate between Claude and the public internet. Whatever Claude writes or designs waits there as a draft, and nothing goes live until you say yes. Every publish is recorded with who said yes, when, and the exact version they saw. Earlier versions are kept, so you can look back at how a page, an article or the site's design changed over time and see who changed it.
+tinycms is also the gate between Claude and the public internet. Whatever Claude writes or designs waits there as a draft, and nothing goes live until you approve it. Every publish is recorded with who approved it, when, and the exact version they saw. Earlier versions are kept, so you can look back at how a page, an article or the site's design changed over time and see who changed it.
 
 ## What you need
 
@@ -17,10 +17,11 @@ tinycms is also the gate between Claude and the public internet. Whatever Claude
 2. On the plugin's **Connectors** tab, connect **tinycms**. A window opens: enter your email and the code tinycms sends, then pick the site this chat works on. A new account starts with one site for Claude to set up.
 3. Start a new chat and ask for something. For example: "Write a page about our opening hours and show me a preview."
 
-In Claude Code, install it in one step:
+In Claude Code, add the marketplace, then install the plugin:
 
 ```
-/plugin install tinycms --marketplace tinycms-ai/tinycms-plugin
+/plugin marketplace add tinycms-ai/tinycms-plugin
+/plugin install tinycms@tinycms
 ```
 
 Or run `claude --plugin-dir ./tinycms-plugin` from the folder that holds this one to try a working copy. The skills appear as `/tinycms:working-with-tinycms`, `/tinycms:social-posts`, `/tinycms:site-and-pages` and `/tinycms:troubleshooting`.
@@ -31,7 +32,7 @@ Each connection is bound to one site. To work on another site, add another conne
 
 The plugin bundles the tinycms connector (the MCP server at `https://mcp.tinycms.ai/mcp`) with four skills that teach Claude how to use it well:
 
-- **working-with-tinycms**: draft articles, pages and forms; fix the blocking checks; copy-edit the final text; show the preview link; ask for your yes with the version it refers to before publishing or scheduling.
+- **working-with-tinycms**: draft articles, pages and forms; fix the blocking checks; copy-edit the final text; show the preview link; ask for your approval of the exact version before publishing or scheduling.
 - **social-posts**: write and schedule social posts on your connected channels, link them to the right article, and run campaigns.
 - **site-and-pages**: design the site, from a template or from nothing: its look, layout, header, footer, navigation and home page, with custom CSS for whatever the settings do not cover; add media.
 - **troubleshooting**: what Claude does when a call answers "Ask first" or "Not allowed", when a publish is refused, when a social channel has expired, or when you want to send feedback to the tinycms team.
@@ -40,7 +41,7 @@ If you already added the tinycms connector on its own, this plugin uses the same
 
 ## How much Claude may do on its own
 
-Every connected agent starts on **Ask first**: it drafts and proposes, and you say yes in tinycms before anything changes. You can change that per agent in the tinycms app under **Account › AI Agents**. Publishing always needs your yes for the exact version you saw.
+Every connected agent starts on **Ask first**: it drafts and proposes, and you approve in tinycms before anything changes. You can change that per agent in the tinycms app under **Account › AI Agents**. Publishing always needs your approval of the exact version you saw.
 
 ## Data
 
