@@ -1,12 +1,12 @@
 {
   "name": "tinycms",
-  "description": "The tinycms plugin: run your website and social media from a conversation.",
+  "description": "The tinycms plugin: have Claude design, write and run a website that tinycms hosts, and your social media, from a conversation.",
   "owner": { "name": "tinycms", "url": "https://www.tinycms.ai" },
   "plugins": [
     {
       "name": "tinycms",
       "source": "./",
-      "description": "Draft, check and publish website pages, articles, forms and social posts on your tinycms site from a conversation. Nothing goes live until you say yes."
+      "description": "tinycms hosts your website and manages its content. Claude designs the look and layout, then drafts, checks and publishes pages, articles, forms and social posts from a conversation. Nothing goes live until you say yes."
     }
   ]
 }

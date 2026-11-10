@@ -1,6 +1,8 @@
 # tinycms
 
-Run your website and social media from a conversation. tinycms is a content management system for websites and social media made for AI apps. With this plugin, Claude can draft pages, articles and forms on your tinycms site, run the checks, show you a preview on the real site, and publish or schedule once you say yes. On the Pro plan it can also write and schedule social posts and plan campaigns.
+Run your website and social media from a conversation. tinycms is where the website lives: it hosts the site, manages everything on it, and is built for AI apps to work in. Claude is the designer and the writer. It can give the site the look and layout that suits you, from colours, type, header and footer to the structure of each page and custom styling on top, and tinycms serves the result to your visitors. There is no separate host to set up and nothing to deploy.
+
+With this plugin, Claude can also draft pages, articles and forms on your tinycms site, run the checks, show you a preview on the real site, and publish or schedule once you say yes. On the Pro plan it can write and schedule social posts and plan campaigns.
 
 Nothing goes live until you say yes. Every publish is recorded with who said yes, when, and the exact version they saw.
 
@@ -31,7 +33,7 @@ The plugin bundles the tinycms connector (the MCP server at `https://mcp.tinycms
 
 - **working-with-tinycms**: draft articles, pages and forms; fix the blocking checks; copy-edit the final text; show the preview link; ask for your yes with the version it refers to before publishing or scheduling.
 - **social-posts**: write and schedule social posts on your connected channels, link them to the right article, run campaigns, and make branded images with Prism AI.
-- **site-and-pages**: change the site's look, header, footer, navigation and home page; apply a template; add media.
+- **site-and-pages**: design the site, from a template or from nothing: its look, layout, header, footer, navigation and home page, with custom CSS for whatever the settings do not cover; add media.
 - **troubleshooting**: what Claude does when a call answers "Ask first" or "Not allowed", when a publish is refused, when a social channel has expired, or when you want to send feedback to the tinycms team.
 
 If you already added the tinycms connector on its own, this plugin uses the same server, so you see one set of tools.

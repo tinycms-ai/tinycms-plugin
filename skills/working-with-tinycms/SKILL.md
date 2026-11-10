@@ -5,6 +5,8 @@ description: Write, edit, check and publish articles, pages and forms on a tinyc
 
 # Working with tinycms
 
+tinycms hosts the person's website and holds its content. There is no other host and no build step: what gets published is live at the site's address. How the site looks is yours to design (see the `site-and-pages` skill).
+
 You draft and propose. The person decides what goes live. Nothing you write is public until it is published, and publishing needs the person's yes to that exact version, in this chat.
 
 ## Before you start

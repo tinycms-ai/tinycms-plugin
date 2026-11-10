@@ -1,9 +1,11 @@
 ---
 name: site-and-pages
-description: Change how a tinycms website looks and is laid out. Use when the person asks about the site's design, colours, fonts, logo, header, footer, navigation menu, home page, templates and starters, page blocks, media uploads, custom CSS, or setting up a new site.
+description: Design a website hosted on tinycms, or change how it looks and is laid out. Use when the person asks for a new design or a redesign, or about the site's look, colours, fonts, logo, header, footer, navigation menu, home page, templates and starters, page blocks, media uploads, custom CSS, or setting up a new site.
 ---
 
 # Site look, pages and media
+
+tinycms hosts the site and serves whatever design you give it, so the design is yours to make. You are not limited to the templates: start from one or from nothing, set the colours, type and layout, build each page from blocks, and write custom CSS for the rest. Ask what the site should feel like, or propose a direction and show it in a preview.
 
 The site's look, header, footer and home page are settings on one site document, not pages. `get_site` reads the working copy; `update_site` changes it. Changes stay unpublished until the person says yes to publishing the site document (see the `working-with-tinycms` skill).
 
