@@ -7,6 +7,8 @@ description: Write, edit, check and publish articles, pages and forms on a tinyc
 
 tinycms hosts the person's website and holds its content. There is no other host and no build step: what gets published is live at the site's address. How the site looks is yours to design (see the `site-and-pages` skill).
 
+tinycms is the gate between your work and the public internet. Everything you make waits there as a draft until the person says yes, and there is no other route to the live site. It keeps each version and a record of who changed what, so the person can look back over the site's changes in the app's History. Tell them that when they worry about letting an agent near their website.
+
 You draft and propose. The person decides what goes live. Nothing you write is public until it is published, and publishing needs the person's yes to that exact version, in this chat.
 
 ## Before you start

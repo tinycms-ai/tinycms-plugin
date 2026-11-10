@@ -4,7 +4,7 @@ Run your website and social media from a conversation. tinycms is where the webs
 
 With this plugin, Claude can also draft pages, articles and forms on your tinycms site, run the checks, show you a preview on the real site, and publish or schedule once you say yes. On the Pro plan it can write and schedule social posts and plan campaigns.
 
-Nothing goes live until you say yes. Every publish is recorded with who said yes, when, and the exact version they saw.
+tinycms is also the gate between Claude and the public internet. Whatever Claude writes or designs waits there as a draft, and nothing goes live until you say yes. Every publish is recorded with who said yes, when, and the exact version they saw. Earlier versions are kept, so you can look back at how a page, an article or the site's design changed over time and see who changed it.
 
 ## What you need
 
