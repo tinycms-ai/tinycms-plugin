@@ -34,7 +34,7 @@ This agent may not do that on this site. Tell the person where to change it: the
 
 ## A tool is missing
 
-The tool list follows the site and its plan: Social tools need Pro, Prism AI tools need the Prism AI add-on, and the style guide and voice tools need Enterprise. If a tool the person expects is missing, say which plan or add-on it belongs to, and that the owner changes the plan in the app. Each connection is bound to one site: another site needs its own connection.
+The tool list follows the site and its plan: Social tools need Pro, and the style guide and voice tools need Enterprise. If a tool the person expects is missing, say which plan it belongs to, and that the owner changes the plan in the app. Each connection is bound to one site: another site needs its own connection.
 
 ## Something is wrong or missing in tinycms
 

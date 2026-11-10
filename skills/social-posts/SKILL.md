@@ -1,6 +1,6 @@
 ---
 name: social-posts
-description: Write, schedule and manage social media posts and campaigns through a tinycms site's Social channels (X, Bluesky, Threads, Facebook, Instagram, LinkedIn, YouTube, TikTok, Mastodon). Use when the person asks to post about an article, draft a social post, schedule posts, plan a campaign, or put the site's branding and text on an existing image for a post with Prism AI.
+description: Write, schedule and manage social media posts and campaigns through a tinycms site's Social channels (X, Bluesky, Threads, Facebook, Instagram, LinkedIn, YouTube, TikTok, Mastodon). Use when the person asks to post about an article, draft a social post, schedule posts or plan a campaign.
 ---
 
 # Social posts and campaigns
@@ -32,14 +32,3 @@ Social is part of the tinycms Pro plan. If `list_social_accounts` and `create_so
 - `find_campaigns` lists them. `save_campaign` creates one (give `name`, `goal`, `plan`, `endDate`) or edits one; only the fields you pass change.
 - An always-on campaign repeats from the site's articles under its `rules` (words to include or exclude, how old an article may be, times and days). A dated campaign has a board of work and a colour.
 - Pass `campaignId` on a post that belongs to a campaign.
-
-## Branded images with Prism AI
-
-Prism AI (a paid add-on) puts the site's branding and templated text on top of an existing image from an article, a page or the media library. It makes no new images.
-
-1. `create_design_pieces` for the article or page, with shapes by platform: square for Instagram, Facebook, LinkedIn, Threads and Bluesky; wide for X and link cards; story for Stories, Reels covers and TikTok. Pass what the person said the piece should do as the brief.
-2. Give the person each piece's URL to look at, with the notes that came back. "Still to fix" means a person should look before it posts.
-3. `adjust_design_piece` makes the next version of one piece from their words. The earlier one stays.
-4. When they settle on one, `create_social_post` with `postType: "photo"` and `mediaUrl` set to that piece's URL.
-
-Prism AI lays out the source's own picture and words in the site's brand. It cannot add people, scenery or a new picture. Say so if a brief asks for that.

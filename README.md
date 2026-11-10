@@ -32,7 +32,7 @@ Each connection is bound to one site. To work on another site, add another conne
 The plugin bundles the tinycms connector (the MCP server at `https://mcp.tinycms.ai/mcp`) with four skills that teach Claude how to use it well:
 
 - **working-with-tinycms**: draft articles, pages and forms; fix the blocking checks; copy-edit the final text; show the preview link; ask for your yes with the version it refers to before publishing or scheduling.
-- **social-posts**: write and schedule social posts on your connected channels, link them to the right article, run campaigns, and put your branding and text on your own images for posts with Prism AI.
+- **social-posts**: write and schedule social posts on your connected channels, link them to the right article, and run campaigns.
 - **site-and-pages**: design the site, from a template or from nothing: its look, layout, header, footer, navigation and home page, with custom CSS for whatever the settings do not cover; add media.
 - **troubleshooting**: what Claude does when a call answers "Ask first" or "Not allowed", when a publish is refused, when a social channel has expired, or when you want to send feedback to the tinycms team.
 
